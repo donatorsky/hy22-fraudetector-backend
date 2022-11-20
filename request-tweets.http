@@ -1,0 +1,15 @@
+POST http://127.0.0.1:80/tweets
+Content-Type: application/json
+Accept: application/json
+
+{
+  "tweets": [
+    {
+      "id": 123,
+      "link": "123",
+      "content": "123",
+      "label": null,
+      "prediction": null
+    }
+  ]
+}
